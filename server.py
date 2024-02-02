@@ -12,7 +12,7 @@ import numpy as np
 app = Flask(__name__)
 i = 1
 
-model = interpreter = Interpreter(model_path="model/mobilenet.tflite)
+model = interpreter = Interpreter(model_path="model/mobilenet.tflite")
 
 
 def predict(img):
