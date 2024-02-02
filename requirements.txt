@@ -1,4 +1,4 @@
 opencv-python
-keras
+tensorflow
 pillow
 Flask
