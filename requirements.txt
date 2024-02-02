@@ -1,4 +1,4 @@
-opencv-python
+opencv-python==4.7.0.72
 tflite-support
 tflite_runtime-2.4.0-cp37-cp37m-linux_x86_64.whl
 pillow
