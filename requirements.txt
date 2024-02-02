@@ -1,5 +1,5 @@
 opencv-python
 tflite-support
-/tflite_runtime.whl
+tflite_runtime.whl
 pillow
 Flask
