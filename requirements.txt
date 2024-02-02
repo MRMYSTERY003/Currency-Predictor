@@ -1,5 +1,5 @@
 opencv-python
 tflite-support
-tflite_runtime.whl
+tflite_runtime-2.4.0-cp37-cp37m-linux_x86_64.whl
 pillow
 Flask
