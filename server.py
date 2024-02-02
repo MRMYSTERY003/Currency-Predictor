@@ -32,6 +32,11 @@ def predict_base64(encoded_image):
     return cls[np.argmax(res)]
 
 
+@app.route("/", methods=["GET", "POST", "PUT"])
+def home():
+    return "ready to go!"
+
+
 @app.route("/upload_image", methods=["GET", "POST", "PUT"])
 def upload_image():
     try:
@@ -62,4 +67,5 @@ def upload_image():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0")
+    #app.run(debug=True, host="0.0.0.0")
+    app.run(debug=False)
