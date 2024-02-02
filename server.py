@@ -8,7 +8,7 @@ import numpy as np
 
 from keras.models import load_model
 
-mobilenet = load_model("model\\mobilenet")
+mobilenet = load_model("model/mobilenet")
 
 
 app = Flask(__name__)
