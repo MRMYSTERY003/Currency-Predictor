@@ -12,11 +12,11 @@ import numpy as np
 app = Flask(__name__)
 i = 1
 
-model = interpreter = Interpreter(model_path="model/mobilenet.tflite")
+model = interpreter = Interpreter(model_path="model/mobilenet_new.tflite")
 
 
 def predict(img):
-    classes = ["50", "20", "10", "500", "200", "100"]
+    classes = ['10', '500', '200', '100', '50', '20']
 
     input_details = interpreter.get_input_details()
     output_details = interpreter.get_output_details()
