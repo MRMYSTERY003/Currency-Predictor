@@ -16,7 +16,7 @@ model = interpreter = Interpreter(model_path="model/mobilenet.tflite")
 
 
 def predict(img):
-    classes = ['10', '500', '200', '100', '50', '20']
+    classes = ['50', '200', '20', '10', '-1', '500', '100']
 
     input_details = interpreter.get_input_details()
     output_details = interpreter.get_output_details()
